@@ -23,7 +23,7 @@ button{
     font-weight: 1.2rem;
 }
 .container-fluid{
-    padding: 3% 15%;
+    padding: 3% 15% 7%;
     overflow: hidden;
 }
 
@@ -31,16 +31,20 @@ button{
     height: 25em;
 }
 .top-img{
-    width: 60%;
+    width: 80%;
     /* transform: rotate(25deg) scale(0.75) translate(0%, -15%); */
     transform: rotate(25deg) ;
-
+    /* position: absolute; */
+    /* z-index: -1; */
 }
 
 
 /* features section*/
 #features{
-    padding: 7% 15%
+    padding: 7% 15%;
+    background-color: #ffffff;
+    /* position: relative;
+    z-index: 1; */
 }
 .featues-block{
     text-align: center;
@@ -112,4 +116,27 @@ button{
 .col{
     padding-left: 5%;
     padding-right: 5%;
+}
+
+/* Call to Action  */
+#cta{
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #ff4c68;
+    color: #ffffff;
+}
+h3{
+    font-size: 3.5rem;
+    font-weight: 900;
+    line-height: 1.5;
+}
+
+@media (max-width:1028px){
+    #title{
+        text-align: center;
+    }
+    .top-img{
+        position: static;
+        transform: rotate(0);
+    }
 }
