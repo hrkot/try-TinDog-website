@@ -1,6 +1,9 @@
 body{
     font-family: 'Montserrat', sans-serif;
 }
+.dl-btn{
+    margin: 1% 1%;
+}
 /* title section */
 #title{
     background-color: #ff4c68;
@@ -10,10 +13,7 @@ h1{
     font-weight: 900;
     line-height: 1.5;
 }
-button{
-    margin: 5% 1%;
-    
-}
+
 .navbar-brand{
     font-family: 'Ubuntu', sans-serif;
     font-weight: 700;
@@ -125,12 +125,20 @@ button{
     background-color: #ff4c68;
     color: #ffffff;
 }
-h3{
+.cta-text{
     font-size: 3.5rem;
     font-weight: 900;
     line-height: 1.5;
 }
-
+/* footer section */
+#footer{
+    text-align: center;
+    padding: 7% 10%;
+    background-color: #ffffff;
+}
+.footer-icon{
+    margin: 2% 1%;
+}
 @media (max-width:1028px){
     #title{
         text-align: center;
