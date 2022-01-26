@@ -62,3 +62,54 @@ button{
 .features-text{
     color:#8f8f8f ;
 }
+
+/* testimonials section */
+#testimonials{
+    /* padding: 7% 15%; */
+    text-align: center;
+    background-color: #ef8172;
+    color: #ffffff;
+}
+
+.carousel-item{
+    padding: 7% 15% 
+}
+button{
+    margin: 0;
+}
+.carousel-indicators [data-bs-target]{
+    width:12px;
+    height: 12px;
+    border-radius: 100%;
+}
+
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+
+/* Press section */
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-logo{
+    width: 15%;
+    padding: 20px 20px 50px;
+}
+/* Price section */
+#pricing{
+    padding: 7% 10%;
+    text-align: center;
+}
+.row{
+    padding: 7% 0%;
+}
+.col{
+    padding-left: 5%;
+    padding-right: 5%;
+}
