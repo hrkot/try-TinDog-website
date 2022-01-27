@@ -1,19 +1,47 @@
+/* common tag */
 body{
     font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    
+}
+h1, h2, h3, h4, h5, h6{
+    font-weight: 900;
+}
+p{
+    color: #8f8f8f;
+}
+/* common class */
+.container-fluid{
+    padding: 7% 15%;
 }
 .dl-btn{
     margin: 1% 1%;
 }
-/* title section */
-#title{
-    background-color: #ff4c68;
-}
-h1{
+.big-haeding{
     font-size: 3.5rem;
-    font-weight: 900;
     line-height: 1.5;
 }
 
+/* section */
+.colored-section{
+    background-color: #ff4c68;
+    color: #ffffff;
+}
+.light{
+    background-color: #ef8172;
+    /* color: #ffffff; */
+}
+
+.white-section{
+    background-color: #ffffff;
+}
+
+/* title section */
+#title .container-fluid{
+    text-align: left;
+    padding: 3% 15% 7%;
+    overflow: hidden;
+}
 .navbar-brand{
     font-family: 'Ubuntu', sans-serif;
     font-weight: 700;
@@ -21,10 +49,6 @@ h1{
 }
 .nav-links{
     font-weight: 1.2rem;
-}
-.container-fluid{
-    padding: 3% 15% 7%;
-    overflow: hidden;
 }
 
 .top-img-frame{
@@ -40,14 +64,7 @@ h1{
 
 
 /* features section*/
-#features{
-    padding: 7% 15%;
-    background-color: #ffffff;
-    /* position: relative;
-    z-index: 1; */
-}
 .featues-block{
-    text-align: center;
     padding: 5%;
 }
 .features-icon{
@@ -59,7 +76,6 @@ h1{
     color: #ff4c68;
 }
 .features-title{
-    font-weight: bold;
     font-size: 1.3rem;
     /* line-height: 1.5; */
 }
@@ -68,16 +84,6 @@ h1{
 }
 
 /* testimonials section */
-#testimonials{
-    /* padding: 7% 15%; */
-    text-align: center;
-    background-color: #ef8172;
-    color: #ffffff;
-}
-
-.carousel-item{
-    padding: 7% 15% 
-}
 button{
     margin: 0;
 }
@@ -95,21 +101,12 @@ button{
 
 
 /* Press section */
-#press{
-    background-color: #ef8172;
-    text-align: center;
-    padding-bottom: 3%;
-}
-
 .press-logo{
     width: 15%;
     padding: 20px 20px 50px;
 }
 /* Price section */
-#pricing{
-    padding: 7% 10%;
-    text-align: center;
-}
+
 .row{
     padding: 7% 0%;
 }
@@ -119,23 +116,8 @@ button{
 }
 
 /* Call to Action  */
-#cta{
-    padding: 7% 15%;
-    text-align: center;
-    background-color: #ff4c68;
-    color: #ffffff;
-}
-.cta-text{
-    font-size: 3.5rem;
-    font-weight: 900;
-    line-height: 1.5;
-}
+
 /* footer section */
-#footer{
-    text-align: center;
-    padding: 7% 10%;
-    background-color: #ffffff;
-}
 .footer-icon{
     margin: 2% 1%;
 }
